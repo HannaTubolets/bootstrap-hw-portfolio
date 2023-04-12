@@ -106,6 +106,7 @@ body {
   .app-heading,
   .contact-heading {
     text-align: center;
+    font-size: 32px;
   }
 
   .app-link {
