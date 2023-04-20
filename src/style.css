@@ -21,6 +21,7 @@ h6 {
   color: #27261f;
   font-family: var(--heading-font-family);
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 p {
@@ -61,6 +62,7 @@ p {
   font-size: 24px;
   opacity: 0.7;
   text-align: center;
+  margin-top: 24px;
 }
 
 .txt {
@@ -89,7 +91,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .main-heading {
     font-size: 48px;
     line-height: 1.5;
@@ -110,5 +112,22 @@ p {
     display: block;
     text-align: center;
     margin-top: 40px;
+  }
+
+  .section {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .more-link {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 120px 16px;
+  }
+
+  .heading {
+    margin-top: 80px;
   }
 }
