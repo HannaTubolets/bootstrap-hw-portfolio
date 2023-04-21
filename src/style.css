@@ -89,10 +89,15 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email-link:hover {
   text-decoration: underline;
+  color: #555;
 }
 
 @media (max-width: 768px) {
@@ -151,6 +156,10 @@ p {
   padding: 15px; /* Some padding */
   border-radius: 4px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #myBtn:hover {
