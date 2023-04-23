@@ -119,6 +119,11 @@ p {
   align-items: center;
 }
 
+.contact-block {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .active {
   color: var(--primary-color);
 }
