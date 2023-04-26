@@ -121,12 +121,13 @@ p {
 }
 
 .contact-block {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  padding: 24px 120px;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.active {
-  color: var(--primary-color);
+  justify-content: space-between;
 }
 
 .social-link {
@@ -148,6 +149,17 @@ p {
 
 .about {
   margin-top: 64px;
+}
+
+.github-link {
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.github-link:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
@@ -188,6 +200,10 @@ p {
 
   .heading {
     margin-top: 80px;
+  }
+
+  .sub-heading {
+    font-size: 24px;
   }
 }
 
